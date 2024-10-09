@@ -53,6 +53,10 @@
     <!-- Launcher app suggestions -->
     <string name="config_defaultAppPredictionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService</string>
 
+    <!-- Package name that will receive an explicit manifest broadcast for
+         android.os.action.POWER_SAVE_MODE_CHANGED. -->
+    <string name="config_powerSaveModeChangedListenerPackage" translatable="false">com.google.android.flipendo</string>
+
     <!-- Make AiAi the default role holder for System Intelligence -->
     <string name="config_systemAmbientAudioIntelligence">com.google.android.as</string>
     <string name="config_systemAudioIntelligence">com.google.android.as</string>
